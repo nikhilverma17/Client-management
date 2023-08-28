@@ -1,0 +1,142 @@
+/* Add this CSS to your App.css file */
+body{
+ background-color: #96B6C5;
+}
+.pdf-content {
+  font-family: Arial, sans-serif;
+  max-width: 300px; /* Adjust the max width as needed */
+  margin: 0 auto;
+}
+.pdf-content-container {
+  display: flex;
+  justify-content: space-between; /* Distribute the two content sections */
+  margin: 20px; /* Add margin for spacing */
+}
+
+.pdf-content-1,
+.pdf-content-2 {
+  flex: 1; /* Distribute available space evenly between the two content sections */
+  padding: 20px; /* Add padding for spacing within each section */
+  border: 1px solid #f2eeee; /* Add a border for visual separation */
+}
+@media (max-width: 768px) {
+  .pdf-content-container {
+    flex-direction: column; /* Stack the content sections vertically */
+  }
+
+  .pdf-content-1,
+  .pdf-content-2 {
+    margin: 10px 0; /* Adjust margin for spacing in mobile view */
+    border: none; /* Remove border in mobile view for cleaner look */
+  }
+
+  .center-button-container {
+    margin-top: 10px; /* Adjust margin for spacing in mobile view */
+  }
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.form-group-1 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+label {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  font-size: 1.2rem;
+  
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+  box-sizing: border-box;
+}
+
+
+.submission-list {
+  padding: 20px;
+  background-color: #96B6C5;
+  
+ 
+
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+tr,th,td{
+  border: 1px solid #dddddd;
+  text-align: left;
+ width: 10%;
+ padding: 2px;
+}
+
+.submission-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fcffff;
+  border: 1px solid #913939;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.submission-item p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.submit-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.center-button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.submit-button:hover {
+  background-color: #555;
+}
+header{
+  display: flex;
+  align-items: flex-end;
+  font-size: 12px;
+}
+.logo{
+height: 5rem;
+}
+
+
+
+
